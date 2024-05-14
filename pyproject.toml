@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "goit-software-08"
+version = "0.1.0"
+description = ""
+authors = ["Slytherin fantom <uliadiakiv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymongo = "^4.7.2"
+mongoengine = "^0.28.2"
+regex = "^2024.5.10"
+pika = "^1.3.2"
+celery = "^5.4.0"
+redis = "^5.0.4"
+faker = "^25.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
